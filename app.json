@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/music/music",
+    "pages/music/music-detail/music-detail",
+    "pages/music2/music2",
+    "pages/music2/music-detail2/music-detail2",
+    "pages/music3/music3",
+    "pages/music3/music-detail3/music-detail3"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  },
+   "tabBar": {
+    "borderStyle": "white",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/music/music",
+        "text": "白噪聲",
+        "iconPath": "images/tab/music.png",
+        "selectedIconPath": "images/tab/music_hl.png"
+      },
+      {
+        "pagePath": "pages/music2/music2",
+        "text": "輕音樂",
+        "iconPath": "images/tab/music.png",
+        "selectedIconPath": "images/tab/music_hl.png"
+      },
+      {
+        "pagePath": "pages/music3/music3",
+        "text": "ASMR",
+        "iconPath": "images/tab/music.png",
+        "selectedIconPath": "images/tab/music_hl.png"
+      }
+    ]
+  }
+}
